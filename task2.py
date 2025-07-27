@@ -1,4 +1,3 @@
-# 2. E-commerce Flash Sale Hot Items
 import heapq
 
 def hot_items(request_counts, stock_levels, k):
@@ -26,4 +25,4 @@ stock_levels = {"item1": 5, "item2": 0, "item3": 2, "item4": 10}
 
 output = hot_items(request_counts, stock_levels, 2)
 print(output)
-#output = ['item1', 'item4'] 
+# Output: ['item4', 'item1']
